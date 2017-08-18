@@ -1,4 +1,4 @@
---- 
+---
 - hosts: all
   gather_facts: no
   become: yes
@@ -7,7 +7,6 @@
     - dev
   tasks:
     - synchronize: src=../../../webapp/ dest=/home/isucon/webapp owner=no group=no links=yes
-    - synchronize: src=../../../bin/ dest=/home/isucon/bin owner=no group=no
     - synchronize: src=../files/env.sh dest=/home/isucon/env.sh owner=no group=no
     - file: path=/home/isucon owner=isucon group=isucon state=directory recurse=yes
       become_user: root
