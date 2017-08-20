@@ -34,7 +34,7 @@ http://isucon6-dummy.example.com/
 
 以下のdeplyボタンでリソースを起動してください。起動には数分程度の時間がかかります。
 
-<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3a%2f%2fgist%2egithub%2ecom%2ftatsuru%2fc9813892b9c4eb99c7f661a880d8b4fe%2fraw%2fdeploy%2ejson" target="_blank"><img src="http://azuredeploy.net/deploybutton.png"/></a>
+<a href="https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fgist.githubusercontent.com%2Fsaboyutaka%2Fc648c74154ddd0a5c7f80df25b6421db%2Fraw%2F78b681279ea59f9d55da636165138a892d82d2db%2Fdeploy.json" target="_blank"><img src="http://azuredeploy.net/deploybutton.png"/></a>
 
 登録したMicrosoftアカウントでAzureにログインをおこない、Azure上の手順に従って、競技参加用のリソースグループ内で、サーバーを起動してください。
 
