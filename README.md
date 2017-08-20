@@ -1,5 +1,9 @@
 # ISUCON6 予選リポジトリ
 
+## ISUCON6予選をAzureに再現するためのリポジトリ
+https://github.com/isucon/isucon6-qualify に本家のISUCON6予選のリポジトリがありますが、こちらは6予選当日のサーバー構成に依存するdeployの方法で記述されているので、現在でも構築可能な方法に一部修正し、再現させるためのリポジトリです。
+Regulation.mdのDeploy to Azureボタンで、当日同様にAzure上にインスタンスを構築することができます。
+
 レギュレーションは Regulation.md に書かれています。
 
 ## リポジトリ内容
